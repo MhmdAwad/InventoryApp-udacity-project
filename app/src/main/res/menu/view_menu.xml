@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context = ".ViewActivity">
+
+    <item
+        android:id="@+id/insertt_dummy_data"
+        android:title="insert data"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delteAll"
+        android:title="Delete All Items"
+        app:showAsAction="never"/>
+</menu>

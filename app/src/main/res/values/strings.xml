@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="no_items">No items yet..</string>
+    <string name="add_item">Get started by adding a product</string>
+    <string name="add_dummy_data">Add dummy data</string>
+    <string name="call_supplier">Call Supplier</string>
+    <string name="edit_product">Edit Product</string>
+
+    <string-array name="order_edit">
+        <item>@string/call_supplier </item>
+        <item>@string/edit_product </item>
+    </string-array>
+</resources>
