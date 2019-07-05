@@ -29,8 +29,9 @@ import com.mhmdawad.inventoryapp.database.phoneCursorAdapter;
 public class ViewActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     phoneCursorAdapter phoneCursorAdapter;
-    static final int LOADER_INT = 0;
+    static final int LOADER_INT = 130;
     TextView quantityTextView;
+    String Hotel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
