@@ -33,7 +33,6 @@ public class ViewActivity extends AppCompatActivity implements LoaderManager.Loa
     TextView quantityTextView;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
