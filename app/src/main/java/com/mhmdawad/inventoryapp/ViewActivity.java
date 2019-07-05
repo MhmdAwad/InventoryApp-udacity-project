@@ -32,7 +32,7 @@ public class ViewActivity extends AppCompatActivity implements LoaderManager.Loa
     static final int LOADER_INT = 0;
     TextView quantityTextView;
 String a;
-String ss;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
