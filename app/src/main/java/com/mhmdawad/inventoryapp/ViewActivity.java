@@ -31,9 +31,6 @@ public class ViewActivity extends AppCompatActivity implements LoaderManager.Loa
     phoneCursorAdapter phoneCursorAdapter;
     static final int LOADER_INT = 0;
     TextView quantityTextView;
-int aa = 0;
-String helloFuckers = "hello1";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
